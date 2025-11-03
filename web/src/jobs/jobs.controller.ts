@@ -13,6 +13,6 @@ export class JobsController {
 
   @Post('quick')
   async quick(@Body() dto: CreateJobDto) {
-    return this.jobs.runQuick(dto.inputDir, dto.outDir, !!dto.highQuality);
+    return this.jobs.runQuick(dto.inputDir, dto.outDir);
   }
 }

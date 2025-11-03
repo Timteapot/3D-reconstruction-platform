@@ -46,7 +46,6 @@ export class JobsService {
   runQuick(
     inputDir: string,
     outDir: string,
-    highQuality = false,
   ): Promise<{
     ok: boolean;
     code: number | null;
