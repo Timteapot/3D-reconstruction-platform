@@ -1,11 +1,11 @@
-import './App.scss'
-// import { Col,Row } from 'antd'
-
+import { RouterProvider } from "react-router-dom"
+import router from "./router"
 
 function App() {
   return (
     <>
-      <h1 className="title">3D Reconstruction Platform</h1>
+      <h1>3D-reconstruction-platform</h1>
+      <RouterProvider router={router} />
     </>
   )
 }
