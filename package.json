@@ -1,0 +1,54 @@
+{
+  "name": "3d",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "tailwindcss": {
+    "content": [
+      "./src/**/*.{html,js,jsx,ts,tsx,vue,svelte}",
+      "./public/**/*.html"
+    ],
+    "theme": {
+      "extend": {
+        "colors": {
+          "primary": "#1fb6ff"
+        }
+      }
+    },
+    "plugins": []
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.10.1",
+    "antd": "^5.28.1",
+    "axios": "^1.13.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.9.6",
+    "redux": "^5.0.1",
+    "sass": "^1.94.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "tailwindcss": "^4.1.17",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.3",
+    "vite": "^7.2.2"
+  }
+}
